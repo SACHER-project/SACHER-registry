@@ -1,0 +1,41 @@
+# This is a TOML document.
+
+title = "TOML Config File Sample"
+
+
+[database]
+DB_NAME=""
+DB_USER=""
+DB_PASSWORD=""
+DB_HOST=""
+
+
+[openstack_lab]
+OPENSTACK_AUTH_URL=''
+OPENSTACK_USERNAME=''
+OPENSTACK_PASSWORD=''
+OPENSTACK_PROJECT_NAME= ''
+OPENSTACK_USER_DOMAIN_NAME=''
+OPENSTACK_PROJECT_DOMAIN_NAME=''
+
+
+[openstack_sacher]
+OPENSTACK_AUTH_URL=''
+OPENSTACK_USERNAME=''
+OPENSTACK_PASSWORD=''
+OPENSTACK_PROJECT_NAME= ''
+NOVA_VERSION=''
+
+
+[ssh]
+HOSTNAME = ''
+SSH_USER = ''
+SSH_PRIVATE_KEY_PATH = ''
+
+
+[swift]
+SWIFT_AUTH_URL=''
+SWIFT_USERNAME=''
+SWIFT_PASSWORD=''
+SWIFT_OS_OPTION={'user_domain_name'= '', 'project_domain_name'= '', 'project_name'= ''}
+SWIFT_AUTH_VERSION='3'
